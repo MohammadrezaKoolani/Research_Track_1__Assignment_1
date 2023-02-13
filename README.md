@@ -169,7 +169,7 @@ def grabingSilver(code):
 		print("Noooop!")
 ```
 
-######### releasingGold()
+#### releasingGold()
 
 This function’s responsibility is to releasing silver boxes near the gold ones. When the threshold distance is less than 0.2 it means that robot reaches near the golden boxes with a grabbed silver box and the release it and attaches that gold box to grabedGold list.
 •	Arguments
@@ -189,7 +189,7 @@ def releasingGold(code,dist,rot_y):
 print("wait....!")
 ```
 
-######## sortingTokens()
+#### sortingTokens()
 
 This function sorts the list of tokens. it takes in a list called "list1" as its argument. The purpose of this function is to sort the elements in "list1" based on their second elements (the elements at index 1 of each sublist) in ascending order. Once the list is sorted, the function selects the first element of the sorted list (which will have the lowest value of the second element of each sublist), and assigns its first element to the variable "code", its second element to the variable "dist", and its third element to the variable "rot_y".
 
